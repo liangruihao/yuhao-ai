@@ -14,3 +14,4 @@ Collecting tensorflow==1.0.1 from https://storage.googleapis.com/tensorflow/mac/
 3、安装keras
 $ pip3 install keras
 
+$ pip3 install keras==2.1
