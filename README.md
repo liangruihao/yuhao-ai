@@ -12,6 +12,15 @@ $ pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tenso
 Collecting tensorflow==1.0.1 from https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
 
  $ sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.2.1-py3-none-any.whl
+ 
+$ sudo pip3 install --upgrade https://download.tensorflow.google.cn/mac/cpu/tensorflow-1.8.0-py3-none-any.whl
+
+如果网络连接失败则将URL的网址部分替换为清华镜像
+
+$ sudo pip3 install --upgrade https:// https://mirrors.tuna.tsinghua.edu.cn/mac/cpu/tensorflow-1.3.0-py3-none-any.whl
+
+--------------------- 
+
 
 3、安装keras
 $ pip3 install keras
