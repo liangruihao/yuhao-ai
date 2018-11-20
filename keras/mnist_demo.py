@@ -49,3 +49,9 @@ history = model.fit(x_train,y_train, batch_size=BATCH_SIZE,epochs=NB_EPOCH,verbo
 score = model.evaluate(x_test,y_test,verbose=VERBOSE)
 print("Test score: ",score[0])
 print("Test score: ",score[1])
+
+model.save_weights('mnist_demo_model_save')
+json_string = model.to_json()
+text_file = open("mnist_demo_model_json","w")
+text_file.write(json_string)
+text_file.close()
