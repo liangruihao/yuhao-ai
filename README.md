@@ -26,12 +26,14 @@ $ pip3 install keras
 $ pip3 install keras==2.1
 
 
-
+----------------------
+>>> import tensorflow as tf
+>>> tf.__version__
+'1.2.1'
 >>> import keras
 Using TensorFlow backend.
 >>> keras.__version__
 '2.1.0'
->>> import tensorflow as tf
->>> tf.__version__
-'1.0.1'
 >>> 
+
+
